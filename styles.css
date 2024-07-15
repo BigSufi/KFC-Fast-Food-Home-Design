@@ -1,0 +1,337 @@
+* {
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+.headerButtons .btn:first-child {
+  border: 2px solid red !important;
+}
+
+.headerButtons .btn {
+  font-size: 14px;
+  padding-top: 6px !important;
+  font-weight: 700;
+}
+
+.headerLoginButtons .btn:last-child {
+  font-size: 14px;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.svgBucket {
+  height: 50px;
+  width: 45px;
+}
+
+.loginButton .btn {
+  font-family: "National First Font", sans-serif;
+  padding: 7px 9px !important;
+  font-size: 14px;
+}
+
+.font-family-bold * {
+  font-family: "National 2 Condensed Bold";
+}
+.container-fluid {
+  border: 1px solid black !important;
+  outline: 1px solid black !important;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+@media screen and (max-width: 768px) {
+  .svgBucket {
+    position: absolute;
+    top: 50px;
+    height: 45px;
+    width: 40px;
+  }
+}
+.fs-custom {
+  font-size: 10px;
+}
+
+@media screen and (max-width: 560px) {
+  .loginButton .btn {
+    display: none;
+  }
+  .svgBucket {
+    right: 10px;
+  }
+
+  .smNav {
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .smNav a:last-child img {
+    height: 26px;
+    width: 50px;
+  }
+
+  .headerButtons .btn:first-child {
+    border: 1px solid red !important;
+  }
+
+  .headerButtons .btn {
+    font-size: 14px;
+    padding-top: 4px !important;
+    font-weight: 700;
+  }
+}
+
+.custom-carousel-control-icon {
+  width: 10px !important;
+  height: 10px !important;
+  background-size: 30px 30px;
+}
+
+.custom-slider-button {
+  color: #ea002a;
+}
+
+.custom-order-button {
+  font-size: 14px;
+}
+
+.bg-danger {
+  background-color: #ea002a !important;
+}
+
+.title-below-border {
+  position: relative;
+}
+.title-below-border::after {
+  content: "";
+  display: block;
+  width: 40%;
+  height: 3px;
+  background-color: red;
+  left: 0;
+  bottom: 1px;
+  position: absolute;
+}
+
+.title-below-second::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 5px;
+  background-color: red;
+  left: 25%;
+  bottom: -2px;
+  position: absolute;
+  border-radius: 2px;
+}
+
+.dot-menu {
+  background-color: black;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  right: 4px;
+  bottom: 4px;
+}
+
+.item-card {
+  height: 14rem;
+  width: 13rem;
+  background-color: #1c1816 !important;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+/* @media screen and (max-width: 1050px) {
+  .card {
+    width: calc(100% / 3) !important;
+  }
+} */
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .item-card {
+    height: 120px;
+  }
+
+  .card-wrapper img {
+    height: 80px;
+    width: 110px;
+  }
+}
+
+.border-grid {
+  border: 2px dotted white;
+  border-radius: 3%;
+}
+
+.grid-text {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  color: white;
+}
+
+.scrollMenu {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.bestCard {
+  min-height: 25rem;
+  min-width: 13rem;
+  width: 20rem;
+  background-color: #1c1816;
+  border-radius: 5px;
+}
+
+.bestCard img {
+  width: 100%;
+}
+
+.bestCardRedDots {
+  position: absolute;
+  top: 0;
+  left: 35;
+}
+
+.ri-heart-line {
+  position: absolute;
+  right: 5px;
+  top: 0;
+}
+
+.redDot {
+  height: 22px;
+  width: 15px;
+  background-color: #ea002a;
+}
+
+.labelBox {
+  background-color: #ea002a;
+  height: 2rem;
+  width: 3.5rem;
+}
+
+.top-deals-border {
+  border-radius: 10px;
+  height: 450px;
+}
+
+.add-tocart {
+  position: absolute;
+  border-radius: 10px;
+  font-size: 14px;
+  padding: 3px 5px 3px 5px;
+  bottom: -25px;
+}
+
+.bg-grid-4 {
+  background: #1c1816;
+}
+
+.add-tocart:hover {
+  background-color: white !important;
+  color: #ea002a !important;
+  border: 2px solid #ea002a;
+}
+
+.add-tocart:hover i {
+  color: #ea002a !important;
+}
+.bestCard .card-body > img,
+.bestCard img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.bestCard:hover .card-body > img,
+.bestCard:hover img {
+  transform: scale(1.1);
+}
+
+.labelText span {
+  font-family: "Raleway", sans-serif !important;
+}
+.order-text {
+  letter-spacing: 1px;
+}
+.labelPrice {
+  position: absolute;
+  top: 95px;
+  right: 1px;
+}
+
+.labelPrice:before {
+  content: "";
+  position: absolute;
+  left: -30px;
+  border-width: 1rem 15px 1rem 15px;
+  border-style: solid;
+  border-color: #ea002a #ea002a #ea002a transparent;
+}
+
+@media screen and (max-width: 1200px) {
+  .content-grid-4 img {
+    height: 5rem !important ;
+    width: 9rem !important;
+  }
+
+  .content-grid-4 h5 {
+    font-size: 12px !important;
+  }
+
+  .content-grid-4 button {
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content-grid-4 {
+    display: flex;
+    justify-content: center;
+    height: 100% !important;
+  }
+}
+
+/* @media screen and (max-width: 600px) {
+  .content-grid-4 img {
+    height: 2.5rem !important ;
+    width: 4rem !important;
+  }
+
+  .content-grid-4 h5 {
+    font-size: 9px !important;
+  }
+
+  .content-grid-4 button {
+    font-size: 9px !important;
+  }
+} */
+
+.content-grid-4 {
+  padding: 15px 15px 15px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.custom-powered-border:after {
+  content: "";
+  position: absolute;
+  width: 75px;
+  height: 2px;
+  border-radius: 5px;
+  background-image: linear-gradient(to left, red, yellow, green);
+  left: 0;
+  bottom: -10px;
+}
