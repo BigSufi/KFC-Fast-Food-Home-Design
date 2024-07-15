@@ -1,7 +1,7 @@
 # KFC Home Page Project
 Prooject Demo Vercel: https://kfc-fast-food-home-design.vercel.app/
 
-Welcome to the KFC Home Page Project! This README file will guide you through the project structure, setup, and usage.
+Welcome to the KFC Home Page Project! Responsive for mobile, tablet and desktop.
 
 ## Table of Contents
 
