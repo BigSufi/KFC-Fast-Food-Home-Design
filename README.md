@@ -27,5 +27,7 @@ The KFC Home Page Project is a web development project aimed at creating a respo
 - Bootstrap 5.3
 - JavaScript (optional)
 
-##Project Demo Video
+## Project Demo Video
+
+https://github.com/BigSufi/KFC-Fast-Food-Home-Design/blob/master/KFC.mp4
 
