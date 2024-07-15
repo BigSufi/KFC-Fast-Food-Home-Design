@@ -1,5 +1,6 @@
 # KFC Home Page Project
 Prooject Demo Vercel: https://kfc-fast-food-home-design.vercel.app/
+
 Welcome to the KFC Home Page Project! This README file will guide you through the project structure, setup, and usage.
 
 ## Table of Contents
@@ -25,7 +26,6 @@ The KFC Home Page Project is a web development project aimed at creating a respo
 - HTML5
 - CSS3
 - Bootstrap 5.3
-- JavaScript (optional)
 
 ## Project Demo Video
 
